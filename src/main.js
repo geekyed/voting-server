@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDom from 'react-dom'
+import Hello from './components/Hello.jsx'
 
-const index = () => {}
+const main = () => {
   const domHook = document.getElementById('app')
-  ReactDom.render(<HelloWorld />, domHook)
+  ReactDom.render(<Hello />, domHook)
 }
 
-index()
+main()
